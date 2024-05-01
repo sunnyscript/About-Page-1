@@ -1,0 +1,144 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.header{
+    margin: auto;
+    width: 80%;
+}
+
+.head-conta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+}
+
+.title {
+    margin: 0;
+    font-size: 24px;
+    color: #007aff;
+    font-weight: bold;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: #69727a;
+    font-weight: bold;
+}
+
+.nav-link:first-child {
+    margin-left: 0;
+}
+
+a input{
+    margin-left: 15px;
+}
+
+/* Hakkında Sayfası */ 
+
+.content{
+    width: 80%;
+    text-align: center;
+}
+
+.content label{
+    margin: 75px 25px 25px 25px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.colum{
+    display: inline-block;
+    margin: 60px 20px 0px 0px;
+    padding: 10px;
+    width: 25%;
+    background-color: #f4efe9;
+}
+
+.colum > #one{
+    font-weight: bold;
+    padding: 15px 15px 0px 15px;
+    font-size: 17px;
+}
+
+.colum > #two{
+    font-size: 13px;
+}
+
+.colum > #three{
+    margin-bottom: 20px;
+}
+
+.colum > #three > a{
+    text-decoration: none;
+    color: #482aac;
+}
+
+.person{
+    width: 80%;
+    text-align: center;
+    margin-top: 130px;
+}
+
+.info label:first-child{
+    font-weight: bold;
+    font-size: 12px;
+    color: #9f9290;
+}
+
+.info > #title{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.profil{
+    display: inline-block;
+    width: 20%;
+    margin-left: 30px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.profil:last-child{
+    margin-bottom: 100px;
+}
+
+#img > img{
+    margin: 15px;
+}
+
+.profil > #location{
+    font-weight: bold;
+    font-size: 12px;
+    color: #9f9290;
+}
+
+.profil > label{
+    font-weight: bold;
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+
+.profil a{
+    text-decoration: none;
+}
+
+.profil > #text{
+    font-size: 15px;
+}
+
+.creator{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.ceo{
+    font-weight: bold;
+    color: gray;
+}
